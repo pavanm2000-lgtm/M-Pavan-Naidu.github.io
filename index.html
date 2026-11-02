@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Professional portfolio showcasing business solutioning, operations strategy, commercial modelling and AI automation.">
+<title>Portfolio | Solutioning & Operations</title>
+<style>
+:root{--bg:#0b1020;--panel:#111a2e;--panel2:#151f36;--text:#f4f6fb;--muted:#a7b2c8;--line:rgba(255,255,255,.12);--accent:#a6f0d2;--accent2:#c5b8ff;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#1c2850 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid var(--line)}.brand{font-weight:750;letter-spacing:-.03em}.brand span{color:var(--accent)}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}.navlinks a:hover,.textlink:hover{color:var(--accent)}
+.hero{padding:92px 0 72px;display:grid;grid-template-columns:1.35fr .65fr;gap:56px;align-items:center}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:var(--accent);font-weight:750}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.02;letter-spacing:-.06em;margin:18px 0 24px;max-width:760px}.hero h1 em{font-style:normal;color:var(--accent)}.lead{font-size:18px;color:#c3ccdc;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;font-size:14px;font-weight:700;border:1px solid var(--line)}.btn.primary{background:var(--accent);color:#08131a;border-color:var(--accent)}.btn:hover{transform:translateY(-1px)}.hero-card{border:1px solid var(--line);background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border-radius:24px;padding:26px}.hero-card .mini{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}.focus{padding:17px 0;border-bottom:1px solid var(--line)}.focus:last-child{border:0}.focus strong{display:block;font-size:17px}.focus small{color:var(--muted)}
+section{padding:64px 0;border-top:1px solid var(--line)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}.section-head h2{font-size:clamp(28px,4vw,42px);letter-spacing:-.045em;line-height:1.1;margin:8px 0}.section-head p{color:var(--muted);max-width:470px;margin:0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.02));border:1px solid var(--line);border-radius:20px;padding:26px;min-height:230px}.tag{display:inline-block;font-size:11px;color:var(--accent);border:1px solid rgba(166,240,210,.3);border-radius:999px;padding:4px 9px;margin:0 5px 10px 0}.card h3{font-size:21px;letter-spacing:-.025em;margin:6px 0 10px}.card p{color:var(--muted);margin:0 0 14px}.card ul{padding-left:18px;color:#d7deea;margin-bottom:0}.card li{margin:5px 0}.note{font-size:12px;color:var(--muted);margin-top:18px}
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.skill{padding:18px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}.skill strong{display:block;margin-bottom:5px}.skill span{color:var(--muted);font-size:13px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{border-top:2px solid var(--accent);padding-top:15px}.step b{font-size:12px;color:var(--accent);letter-spacing:.1em}.step h3{margin:8px 0}.step p{font-size:14px;color:var(--muted);margin:0}
+.contact{display:flex;justify-content:space-between;align-items:center;gap:28px;padding:34px;border-radius:24px;border:1px solid var(--line);background:linear-gradient(120deg,rgba(166,240,210,.10),rgba(197,184,255,.08))}.contact h2{font-size:clamp(26px,4vw,40px);line-height:1.1;letter-spacing:-.04em;margin:0 0 8px}.contact p{color:var(--muted);margin:0}.contact-actions{display:flex;gap:10px;flex-wrap:wrap}
+footer{padding:28px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:60px 0 50px;gap:30px}.navlinks{gap:12px;font-size:12px}.grid{grid-template-columns:1fr}.skills,.process{grid-template-columns:repeat(2,1fr)}.section-head{display:block}.section-head p{margin-top:12px}.contact{display:block}.contact-actions{margin-top:20px}}
+@media(max-width:430px){.navlinks a:nth-child(2){display:none}.wrap{width:min(var(--max),calc(100% - 28px))}.skills,.process{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav>
+  <a class="brand" href="#home">PORTFOLIO<span>.</span></a>
+  <div class="navlinks"><a href="#work">Selected work</a><a href="#capabilities">Capabilities</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+</nav>
+</header>
+<main>
+<div class="wrap hero" id="home">
+  <div>
+    <div class="eyebrow">Business solutioning · Operations · Automation</div>
+    <h1>Turning complex requirements into <em>workable solutions.</em></h1>
+    <p class="lead">I work at the intersection of business requirements, operational feasibility, commercial modelling and process automation—helping teams move from an unclear ask to a structured, executable plan.</p>
+    <div class="actions"><a class="btn primary" href="#work">Explore selected work ↘</a><a class="btn" href="#contact">Get in touch</a></div>
+  </div>
+  <aside class="hero-card">
+    <div class="mini">Core focus</div>
+    <div class="focus"><strong>Solution design</strong><small>Scope, assumptions, delivery models and handovers</small></div>
+    <div class="focus"><strong>Commercial thinking</strong><small>Cost structures, pricing logic and feasibility checks</small></div>
+    <div class="focus"><strong>Workflow automation</strong><small>AI-assisted documentation and repeatable processes</small></div>
+  </aside>
+</div>
+
+<section id="work"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Selected work</div><h2>Problems I help solve</h2></div><p>Illustrative case studies based on the type of work I do. Replace or refine these with approved, anonymized examples and measurable outcomes.</p></div>
+  <div class="grid">
+    <article class="card">
+      <span class="tag">Solutioning</span><span class="tag">Process design</span>
+      <h3>From client requirements to an executable delivery plan</h3>
+      <p>Structured ambiguous requirements into a clear operating model so Sales, Operations and delivery stakeholders could align before commitment.</p>
+      <ul><li>Separated confirmed inputs, assumptions and open questions</li><li>Mapped responsibilities, prerequisites, scope and exclusions</li><li>Prepared a handover structure for operational execution</li></ul>
+    </article>
+    <article class="card">
+      <span class="tag">Commercial modelling</span><span class="tag">Feasibility</span>
+      <h3>Building a cost model around real delivery constraints</h3>
+      <p>Translated volume, location, staffing and service requirements into a structured cost and pricing view for internal decision-making.</p>
+      <ul><li>Organized direct costs, support costs and one-time costs</li><li>Checked assumptions, risks and contribution margin</li><li>Highlighted missing inputs before commercials were finalized</li></ul>
+    </article>
+    <article class="card">
+      <span class="tag">Operations</span><span class="tag">Capacity planning</span>
+      <h3>Making scale-up requirements operationally clear</h3>
+      <p>Connected demand inputs with feasibility, resource planning and rollout dependencies to support a practical ramp-up approach.</p>
+      <ul><li>Reviewed location and volume-level requirements</li><li>Identified dependencies, service levels and readiness gaps</li><li>Aligned stakeholders on next steps and ownership</li></ul>
+    </article>
+    <article class="card">
+      <span class="tag">AI automation</span><span class="tag">n8n · LLM workflows</span>
+      <h3>Reducing repetitive work with AI-assisted workflows</h3>
+      <p>Exploring workflows that turn task details, comments and meeting notes into structured drafts and reusable documentation.</p>
+      <ul><li>Mapped triggers, inputs, decision rules and outputs</li><li>Designed structured data extraction and document generation</li><li>Considered human review before important updates</li></ul>
+    </article>
+  </div>
+  <p class="note">Confidentiality note: do not publish client names, internal screenshots, pricing sheets, personal data or proprietary workflows without permission. Add only verified outcomes; no metrics are claimed in this draft.</p>
+</div></section>
+
+<section id="capabilities"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Capabilities</div><h2>How I create value</h2></div><p>A practical blend of structured thinking, stakeholder coordination and execution-focused documentation.</p></div>
+  <div class="skills">
+    <div class="skill"><strong>Solution design</strong><span>Scope definition, assumptions, operating models, SOW inputs</span></div>
+    <div class="skill"><strong>Commercial analysis</strong><span>Cost build-up, pricing logic, margin checks, scenario planning</span></div>
+    <div class="skill"><strong>Operations planning</strong><span>Feasibility, resource planning, SLAs, risks and dependencies</span></div>
+    <div class="skill"><strong>Stakeholder alignment</strong><span>Clarification, ownership, follow-ups and cross-functional handovers</span></div>
+    <div class="skill"><strong>Workflow automation</strong><span>n8n concepts, triggers, conditional logic and integrations</span></div>
+    <div class="skill"><strong>AI-assisted documentation</strong><span>Structured extraction, draft generation and human review</span></div>
+    <div class="skill"><strong>Process improvement</strong><span>Repeatable templates, checklists and standard workflows</span></div>
+    <div class="skill"><strong>Tools</strong><span>ClickUp, spreadsheets, workflow tools and LLM-based assistants</span></div>
+  </div>
+</div></section>
+
+<section id="about"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">About</div><h2>Structured thinking. Practical execution.</h2></div></div>
+  <div class="grid">
+    <article class="card"><h3>My approach</h3><p>I start by clarifying the business outcome, then break the problem into scope, responsibilities, assumptions, cost drivers, operational dependencies and next steps. The goal is to make decisions easier and delivery more predictable.</p></article>
+    <article class="card"><h3>What I’m building toward</h3><p>I’m interested in roles where business analysis, solution consulting, operations strategy, project/program coordination and AI-enabled process improvement come together.</p><p class="note">Personalize this section with your exact role, years of experience, education and target roles.</p></article>
+  </div>
+  <div class="process" style="margin-top:22px">
+    <div class="step"><b>01 / CLARIFY</b><h3>Understand</h3><p>Identify the goal, constraints and missing information.</p></div>
+    <div class="step"><b>02 / STRUCTURE</b><h3>Design</h3><p>Build the scope, workflow, model and assumptions.</p></div>
+    <div class="step"><b>03 / VALIDATE</b><h3>Align</h3><p>Check feasibility, risks, ownership and economics.</p></div>
+    <div class="step"><b>04 / ENABLE</b><h3>Execute</h3><p>Document decisions and support a clear handover.</p></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="contact"><div><div class="eyebrow">Contact</div><h2>Let’s talk about meaningful work.</h2><p>Open to conversations about solutioning, business operations, project coordination and AI automation opportunities.</p></div>
+    <div class="contact-actions"><a class="btn primary" href="mailto:YOUR_EMAIL@example.com?subject=Portfolio%20enquiry">Email me ↗</a><a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+  </div>
+</div></section>
+</main>
+<footer class="wrap"><span>© <span id="year"></span> YOUR NAME</span><span>Built to show how I think, structure and solve.</span></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
